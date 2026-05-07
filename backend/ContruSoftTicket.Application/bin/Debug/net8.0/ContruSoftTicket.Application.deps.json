@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ContruSoftTicket.Application/1.0.0": {
+        "dependencies": {
+          "ContruSoftTicket.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ContruSoftTicket.Application.dll": {}
+        }
+      },
+      "ContruSoftTicket.Domain/1.0.0": {
+        "runtime": {
+          "ContruSoftTicket.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContruSoftTicket.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContruSoftTicket.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
