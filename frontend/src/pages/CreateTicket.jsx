@@ -1,57 +1,136 @@
 import { useState } from "react";
+import InputField from "../components/InputField";
+import FormMessage from "../components/FormMessage";
+import { createTicket } from "../services/ticketService";
 
 export default function CreateTicket() {
-  const [titulo, setTitulo] = useState("");
-  const [descripcion, setDescripcion] = useState("");
+  const [formData, setFormData] = useState({
+    titulo: "",
+    descripcion: ""
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const [message, setMessage] = useState("");
+  const [messageType, setMessageType] = useState("");
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+
+    setErrors({
+      ...errors,
+      [name]: ""
+    });
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!formData.titulo.trim()) {
+      newErrors.titulo = "El título es obligatorio.";
+    } else if (formData.titulo.trim().length < 5) {
+      newErrors.titulo = "El título debe tener al menos 5 caracteres.";
+    }
+
+    if (!formData.descripcion.trim()) {
+      newErrors.descripcion = "La descripción es obligatoria.";
+    } else if (formData.descripcion.trim().length < 10) {
+      newErrors.descripcion = "La descripción debe tener al menos 10 caracteres.";
+    }
+
+    setErrors(newErrors);
+
+    return Object.keys(newErrors).length === 0;
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    // Conectando con tu API backend
-    const response = await fetch("http://localhost:5264/api/ticket", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        titulo,
-        descripcion
-      })
-    });
+    setMessage("");
+    setMessageType("");
 
-    if (response.ok) {
-      alert("Ticket registrado correctamente");
-      setTitulo("");
-      setDescripcion("");
-    } else {
-      alert("Error al registrar el ticket");
+    if (!validateForm()) {
+      return;
+    }
+
+    try {
+      setIsSubmitting(true);
+
+      const result = await createTicket({
+        titulo: formData.titulo.trim(),
+        descripcion: formData.descripcion.trim()
+      });
+
+      setMessageType("success");
+      setMessage(result.mensaje);
+
+      setFormData({
+        titulo: "",
+        descripcion: ""
+      });
+
+      setErrors({});
+    } catch (error) {
+      console.error(error);
+
+      setMessageType("error");
+      setMessage(
+        "No se pudo registrar el ticket. Verifique la información ingresada."
+      );
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   return (
-    <div>
+    <main>
       <h1>Registro de Ticket</h1>
 
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Título</label>
-          <input
-            type="text"
-            value={titulo}
-            onChange={(event) => setTitulo(event.target.value)}
-          />
-        </div>
+        <InputField
+          label="Título del ticket"
+          name="titulo"
+          value={formData.titulo}
+          placeholder="Ejemplo: Equipo no enciende"
+          required={true}
+          onChange={handleChange}
+          error={errors.titulo}
+        />
 
         <div>
-          <label>Descripción</label>
+          <label htmlFor="descripcion">
+            Descripción de la incidencia
+          </label>
+
           <textarea
-            value={descripcion}
-            onChange={(event) => setDescripcion(event.target.value)}
+            id="descripcion"
+            name="descripcion"
+            value={formData.descripcion}
+            placeholder="Describa detalladamente el problema"
+            rows="5"
+            onChange={handleChange}
           />
+
+          {errors.descripcion && (
+            <p>
+              {errors.descripcion}
+            </p>
+          )}
         </div>
 
-        <button type="submit">Registrar ticket</button>
+        <button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "Registrando..." : "Registrar ticket"}
+        </button>
       </form>
-    </div>
+
+      <FormMessage type={messageType} message={message} />
+    </main>
   );
 }

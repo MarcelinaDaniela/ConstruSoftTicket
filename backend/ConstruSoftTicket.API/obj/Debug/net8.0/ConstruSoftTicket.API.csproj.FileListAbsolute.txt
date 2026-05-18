@@ -148,3 +148,4 @@ C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTT
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ConstruSoftTicket.API.props
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ConstruSoftTicket.API.props
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\ConstruSoftTicket.API.sourcelink.json
