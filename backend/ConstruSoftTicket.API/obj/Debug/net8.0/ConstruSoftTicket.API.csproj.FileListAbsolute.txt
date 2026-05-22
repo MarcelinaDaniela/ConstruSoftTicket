@@ -149,3 +149,12 @@ C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTT
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ConstruSoftTicket.API.props
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\obj\Debug\net8.0\ConstruSoftTicket.API.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\BCrypt-Net-Next.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ConstruSoftTicket.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
