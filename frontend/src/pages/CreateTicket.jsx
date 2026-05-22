@@ -1,7 +1,11 @@
 import { useState } from "react";
+
 import InputField from "../components/InputField";
 import FormMessage from "../components/FormMessage";
+import Button from "../components/Button";
+
 import { createTicket } from "../services/ticketService";
+import { normalizeText } from "../utils/normalizeText";
 
 export default function CreateTicket() {
   const [formData, setFormData] = useState({
@@ -33,15 +37,18 @@ export default function CreateTicket() {
   const validateForm = () => {
     const newErrors = {};
 
-    if (!formData.titulo.trim()) {
+    const titulo = normalizeText(formData.titulo);
+    const descripcion = normalizeText(formData.descripcion);
+
+    if (!titulo) {
       newErrors.titulo = "El título es obligatorio.";
-    } else if (formData.titulo.trim().length < 5) {
+    } else if (titulo.length < 5) {
       newErrors.titulo = "El título debe tener al menos 5 caracteres.";
     }
 
-    if (!formData.descripcion.trim()) {
+    if (!descripcion) {
       newErrors.descripcion = "La descripción es obligatoria.";
-    } else if (formData.descripcion.trim().length < 10) {
+    } else if (descripcion.length < 10) {
       newErrors.descripcion = "La descripción debe tener al menos 10 caracteres.";
     }
 
@@ -64,12 +71,12 @@ export default function CreateTicket() {
       setIsSubmitting(true);
 
       const result = await createTicket({
-        titulo: formData.titulo.trim(),
-        descripcion: formData.descripcion.trim()
+        titulo: normalizeText(formData.titulo),
+        descripcion: normalizeText(formData.descripcion)
       });
 
       setMessageType("success");
-      setMessage(result.mensaje);
+      setMessage(result.message);
 
       setFormData({
         titulo: "",
@@ -82,7 +89,7 @@ export default function CreateTicket() {
 
       setMessageType("error");
       setMessage(
-        "No se pudo registrar el ticket. Verifique la información ingresada."
+        "No se pudo registrar el ticket."
       );
     } finally {
       setIsSubmitting(false);
@@ -90,47 +97,110 @@ export default function CreateTicket() {
   };
 
   return (
-    <main>
-      <h1>Registro de Ticket</h1>
+    <main
+      className="
+        min-h-screen
+        flex
+        items-center
+        justify-center
+        bg-gray-100
+        px-4
+      "
+    >
+      <section
+        className="
+          bg-white
+          shadow-lg
+          rounded-lg
+          p-8
+          w-full
+          max-w-xl
+        "
+      >
+        <h1
+          className="
+            text-3xl
+            font-bold
+            mb-2
+            text-gray-800
+          "
+        >
+          Registro de Ticket
+        </h1>
 
-      <form onSubmit={handleSubmit}>
-        <InputField
-          label="Título del ticket"
-          name="titulo"
-          value={formData.titulo}
-          placeholder="Ejemplo: Equipo no enciende"
-          required={true}
-          onChange={handleChange}
-          error={errors.titulo}
-        />
+        <p className="text-gray-600 mb-6">
+          Complete correctamente la información de la incidencia técnica
+        </p>
 
-        <div>
-          <label htmlFor="descripcion">
-            Descripción de la incidencia
-          </label>
-
-          <textarea
-            id="descripcion"
-            name="descripcion"
-            value={formData.descripcion}
-            placeholder="Describa detalladamente el problema"
-            rows="5"
+        <form onSubmit={handleSubmit}>
+          <InputField
+            label="Título del ticket"
+            name="titulo"
+            value={formData.titulo}
+            placeholder="Ejemplo: Equipo no inicia"
+            required={true}
             onChange={handleChange}
+            error={errors.titulo}
           />
 
-          {errors.descripcion && (
-            <p>
-              {errors.descripcion}
-            </p>
-          )}
-        </div>
+          <div className="mb-4">
+            <label
+              htmlFor="descripcion"
+              className="
+                block
+                mb-2
+                font-medium
+                text-gray-700
+              "
+            >
+              Descripción de la incidencia
+            </label>
 
-        <button type="submit" disabled={isSubmitting}>
-          {isSubmitting ? "Registrando..." : "Registrar ticket"}
-        </button>
-      </form>
+            <textarea
+              id="descripcion"
+              name="descripcion"
+              value={formData.descripcion}
+              placeholder="Describa detalladamente el problema"
+              rows="5"
+              onChange={handleChange}
+              className={`
+                w-full
+                border
+                rounded
+                px-3
+                py-2
+                outline-none
+                focus:ring-2
+                ${
+                  errors.descripcion
+                    ? "border-red-500 focus:ring-red-300"
+                    : "border-gray-300 focus:ring-blue-300"
+                }
+              `}
+            />
 
-      <FormMessage type={messageType} message={message} />
+            {errors.descripcion && (
+              <p className="text-red-500 text-sm mt-1">
+                {errors.descripcion}
+              </p>
+            )}
+          </div>
+
+          <Button
+            type="submit"
+            disabled={isSubmitting}
+          >
+            {isSubmitting
+              ? "Registrando..."
+              : "Registrar ticket"}
+          </Button>
+        </form>
+
+        <FormMessage
+          type={messageType}
+          message={message}
+        />
+      </section>
     </main>
   );
 }

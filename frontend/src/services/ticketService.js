@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5264/api/ticket";
+const API_URL = "http://localhost:5264/api/Ticket/crear";
 
 export async function createTicket(ticketData) {
   const response = await fetch(API_URL, {
