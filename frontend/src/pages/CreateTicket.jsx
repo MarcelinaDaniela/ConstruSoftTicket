@@ -3,6 +3,9 @@ import { useState } from "react";
 import InputField from "../components/InputField";
 import FormMessage from "../components/FormMessage";
 import Button from "../components/Button";
+import PageContainer from "../components/PageContainer";
+
+import MainLayout from "../layouts/MainLayout";
 
 import { createTicket } from "../services/ticketService";
 import { normalizeText } from "../utils/normalizeText";
@@ -97,39 +100,10 @@ export default function CreateTicket() {
   };
 
   return (
-    <main
-      className="
-        min-h-screen
-        flex
-        items-center
-        justify-center
-        bg-gray-100
-        px-4
-      "
-    >
-      <section
-        className="
-          bg-white
-          shadow-lg
-          rounded-lg
-          p-8
-          w-full
-          max-w-xl
-        "
-      >
-        <h1
-          className="
-            text-3xl
-            font-bold
-            mb-2
-            text-gray-800
-          "
-        >
-          Registro de Ticket
-        </h1>
-
+    <MainLayout>
+      <PageContainer title="Registro de Tickets">
         <p className="text-gray-600 mb-6">
-          Complete correctamente la información de la incidencia técnica
+          Complete la información de la incidencia técnica.
         </p>
 
         <form onSubmit={handleSubmit}>
@@ -200,7 +174,7 @@ export default function CreateTicket() {
           type={messageType}
           message={message}
         />
-      </section>
-    </main>
+      </PageContainer>
+    </MainLayout>
   );
 }
