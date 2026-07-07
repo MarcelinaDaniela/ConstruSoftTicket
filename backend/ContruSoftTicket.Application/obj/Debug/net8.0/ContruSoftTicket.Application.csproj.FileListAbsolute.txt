@@ -1,0 +1,31 @@
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.csproj.AssemblyReference.cache
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.AssemblyInfoInputs.cache
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.AssemblyInfo.cs
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.deps.json
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.dll
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.pdb
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Domain.dll
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Domain.pdb
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSo.25DA2E9B.Up2Date
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.dll
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\refint\ContruSoftTicket.Application.dll
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.pdb
+C:\Users\USER 17\Downloads\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ref\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.deps.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Application.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Domain.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\bin\Debug\net8.0\ContruSoftTicket.Domain.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSo.25DA2E9B.Up2Date
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\refint\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ref\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Application\obj\Debug\net8.0\ContruSoftTicket.Application.sourcelink.json
