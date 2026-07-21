@@ -35,3 +35,23 @@ C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTT
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ref\ContruSoftTicket.Infrastructure.dll
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Infrastructure.deps.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Infrastructure.runtimeconfig.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Infrastructure.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Infrastructure.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Application.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Domain.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Application.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\bin\Debug\net8.0\ContruSoftTicket.Domain.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSo.E008E0B7.Up2Date
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\refint\ContruSoftTicket.Infrastructure.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ContruSoftTicket.Infrastructure.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Infrastructure\obj\Debug\net8.0\ref\ContruSoftTicket.Infrastructure.dll

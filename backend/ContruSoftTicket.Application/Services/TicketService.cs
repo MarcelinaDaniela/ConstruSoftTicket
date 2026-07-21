@@ -1,10 +1,11 @@
+using ConstruSoftTicket.Application.DTOs;
 using ContruSoftTicket.Application.DTOs;
 using  ContruSoftTicket.Application.Interfaces;
 using ContruSoftTicket.Domain.  Entities;
 
 namespace ContruSoftTicket.Application.Services;
 
-public class TicketService : ITicketService
+public class TicketService : ITicketService 
     {
         private readonly ITicketRepository repository;
 
@@ -26,4 +27,16 @@ public class TicketService : ITicketService
 
                repository.Add(ticket);
             }
-    }
+            public IEnumerable<TicketResponseDto> ObtenerTickets()
+        {
+            // 1. Obtenemos todos los tickets y los transformamos (mapeamos) a DTOs
+            return repository.ObtenerTodos()
+                .Select(t => new TicketResponseDto
+                {
+                    Id = t.Id,
+                    Titulo = t.Titulo,
+                    Estado = t.Estado,
+                    FechaCreacion = t.FechaCreacion
+                });
+        }}
+    

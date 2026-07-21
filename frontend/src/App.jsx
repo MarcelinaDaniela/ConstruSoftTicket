@@ -1,21 +1,35 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
-import Registro from "./pages/Registro"; // <-- Importamos la nueva página
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate
+} from "react-router-dom";
+
+import MainLayout from "./layouts/MainLayout";
 import CreateTicket from "./pages/CreateTicket";
+import TicketList from "./pages/TicketList";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        {/* Ruta inicial: Login */}
-        <Route path="/" element={<Login />} />
-        
-        {/* Ruta para crear un nuevo usuario */}
-        <Route path="/registro" element={<Registro />} />
-        
-        {/* Ruta del formulario de tickets */}
-        <Route path="/ticket" element={<CreateTicket />} />
-      </Routes>
+      <MainLayout>
+        <Routes>
+          <Route
+            path="/"
+            element={<Navigate to="/tickets/create" />}
+          />
+
+          <Route
+            path="/tickets/create"
+            element={<CreateTicket />}
+          />
+
+          <Route
+            path="/tickets"
+            element={<TicketList />}
+          />
+        </Routes>
+      </MainLayout>
     </BrowserRouter>
   );
 }

@@ -5,4 +5,5 @@ namespace ContruSoftTicket.Application.Interfaces;
 public interface ITicketRepository
 {
     void Add(Ticket ticket);
+    IEnumerable <Ticket> ObtenerTodos();
 }

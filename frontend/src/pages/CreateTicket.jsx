@@ -5,8 +5,6 @@ import FormMessage from "../components/FormMessage";
 import Button from "../components/Button";
 import PageContainer from "../components/PageContainer";
 
-import MainLayout from "../layouts/MainLayout";
-
 import { createTicket } from "../services/ticketService";
 import { normalizeText } from "../utils/normalizeText";
 
@@ -17,10 +15,8 @@ export default function CreateTicket() {
   });
 
   const [errors, setErrors] = useState({});
-
   const [message, setMessage] = useState("");
   const [messageType, setMessageType] = useState("");
-
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (event) => {
@@ -89,92 +85,66 @@ export default function CreateTicket() {
       setErrors({});
     } catch (error) {
       console.error(error);
-
       setMessageType("error");
-      setMessage(
-        "No se pudo registrar el ticket."
-      );
+      setMessage("No se pudo registrar el ticket.");
     } finally {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <MainLayout>
-      <PageContainer title="Registro de Tickets">
-        <p className="text-gray-600 mb-6">
-          Complete la información de la incidencia técnica.
-        </p>
+    <PageContainer title="Registro de Tickets">
+      <p className="text-gray-600 mb-6">
+        Complete la información de la incidencia técnica.
+      </p>
 
-        <form onSubmit={handleSubmit}>
-          <InputField
-            label="Título del ticket"
-            name="titulo"
-            value={formData.titulo}
-            placeholder="Ejemplo: Equipo no inicia"
-            required={true}
-            onChange={handleChange}
-            error={errors.titulo}
-          />
-
-          <div className="mb-4">
-            <label
-              htmlFor="descripcion"
-              className="
-                block
-                mb-2
-                font-medium
-                text-gray-700
-              "
-            >
-              Descripción de la incidencia
-            </label>
-
-            <textarea
-              id="descripcion"
-              name="descripcion"
-              value={formData.descripcion}
-              placeholder="Describa detalladamente el problema"
-              rows="5"
-              onChange={handleChange}
-              className={`
-                w-full
-                border
-                rounded
-                px-3
-                py-2
-                outline-none
-                focus:ring-2
-                ${
-                  errors.descripcion
-                    ? "border-red-500 focus:ring-red-300"
-                    : "border-gray-300 focus:ring-blue-300"
-                }
-              `}
-            />
-
-            {errors.descripcion && (
-              <p className="text-red-500 text-sm mt-1">
-                {errors.descripcion}
-              </p>
-            )}
-          </div>
-
-          <Button
-            type="submit"
-            disabled={isSubmitting}
-          >
-            {isSubmitting
-              ? "Registrando..."
-              : "Registrar ticket"}
-          </Button>
-        </form>
-
-        <FormMessage
-          type={messageType}
-          message={message}
+      <form onSubmit={handleSubmit}>
+        <InputField
+          label="Título del ticket"
+          name="titulo"
+          value={formData.titulo}
+          placeholder="Ejemplo: Equipo no inicia"
+          required={true}
+          onChange={handleChange}
+          error={errors.titulo}
         />
-      </PageContainer>
-    </MainLayout>
+
+        <div className="mb-4">
+          <label
+            htmlFor="descripcion"
+            className="block mb-2 font-medium text-gray-700"
+          >
+            Descripción de la incidencia
+          </label>
+          <textarea
+            id="descripcion"
+            name="descripcion"
+            value={formData.descripcion}
+            placeholder="Describa detalladamente el problema"
+            rows="5"
+            onChange={handleChange}
+            className={`
+              w-full border rounded px-3 py-2 outline-none focus:ring-2
+              ${
+                errors.descripcion
+                  ? "border-red-500 focus:ring-red-300"
+                  : "border-gray-300 focus:ring-blue-300"
+              }
+            `}
+          />
+          {errors.descripcion && (
+            <p className="text-red-500 text-sm mt-1">
+              {errors.descripcion}
+            </p>
+          )}
+        </div>
+
+        <Button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "Registrando..." : "Registrar ticket"}
+        </Button>
+      </form>
+
+      <FormMessage type={messageType} message={message} />
+    </PageContainer>
   );
 }

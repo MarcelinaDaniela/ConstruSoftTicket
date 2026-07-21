@@ -1,43 +1,60 @@
+import { NavLink } from "react-router-dom";
+
 export default function Sidebar() {
+  const getLinkClass = ({ isActive }) =>
+    `
+    flex
+    items-center
+    gap-3
+    px-4
+    py-3
+    rounded-lg
+    text-sm
+    font-medium
+    transition
+    duration-200
+    ${
+      isActive
+        ? "bg-blue-600 text-white shadow"
+        : "text-gray-300 hover:bg-gray-800 hover:text-white"
+    }
+  `;
+
   return (
-    <aside
-      className="
-        w-64
-        bg-gray-900
-        text-white
-        min-h-screen
-        p-6
-      "
-    >
-      <h2 className="text-2xl font-bold mb-8">
-        ConstruSoft
-      </h2>
+    <aside className="w-72 bg-gray-950 text-white min-h-screen p-6">
+      <div className="mb-10">
+        <h2 className="text-3xl font-bold tracking-tight">
+          ConstruSoft
+        </h2>
+        <p className="text-sm text-gray-400 mt-1">
+          Ticket Manager
+        </p>
+      </div>
 
       <nav>
-        <ul className="space-y-4">
+        <p className="text-xs uppercase text-gray-500 font-semibold mb-3">
+          Módulos
+        </p>
+        <ul className="space-y-2">
           <li>
-            <button
-              className="
-                w-full
-                text-left
-                hover:text-blue-300
-                transition
-              "
+            <NavLink
+              to="/tickets/create"
+              className={getLinkClass}
             >
-              Registro de Tickets
-            </button>
+              <span></span>
+              <span>Registro de Tickets</span>
+            </NavLink>
           </li>
 
           <li>
-            <button
-              className="
-                w-full
-                text-left
-                text-gray-400
-              "
+            <NavLink
+              to="/tickets"
+              end
+              className={getLinkClass}
             >
-              Próximamente...
-            </button>
+              <span></span>
+              <span>Listado de Tickets</span>
+            </NavLink>
           </li>
         </ul>
       </nav>

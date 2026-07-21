@@ -9,10 +9,27 @@ export async function createTicket(ticketData) {
     body: JSON.stringify(ticketData)
   });
 
+  const data = await response.json();
+
   if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(errorText || "No se pudo registrar el ticket.");
+    throw new Error(
+      data.message || "No se pudo registrar el ticket."
+    );
   }
 
-  return await response.json();
+  return data;
+}
+
+export async function getTickets() {
+  const response = await fetch(API_URL);
+
+  const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error(
+      data.message || "No se pudo obtener el listado de tickets."
+    );
+  }
+
+  return data.data;
 }

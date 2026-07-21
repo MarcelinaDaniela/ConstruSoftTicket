@@ -21,3 +21,15 @@ C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTT
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.pdb
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ref\ContruSoftTicket.Domain.dll
 C:\Users\danie\OneDrive\Desktop\noveno ciclo\contruccion de software\CONTRUSOFTTICKET\CONTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\bin\Debug\net8.0\ContruSoftTicket.Domain.deps.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\bin\Debug\net8.0\ContruSoftTicket.Domain.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\bin\Debug\net8.0\ContruSoftTicket.Domain.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\refint\ContruSoftTicket.Domain.dll
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ContruSoftTicket.Domain.pdb
+C:\Users\danie\OneDrive\Desktop\noveno ciclo\CONSTRUSOFTICKET\CONSTRUSOFTTICKET\backend\ContruSoftTicket.Domain\obj\Debug\net8.0\ref\ContruSoftTicket.Domain.dll
